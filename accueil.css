@@ -8,4 +8,28 @@
     width: 95%;
     margin: 0 auto;
 }
-;
+h1 {
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.codeBy {
+    text-align: center;
+}
+@media screen and (max-width: 719px) {
+    .notreMission {
+        text-align: center;
+    }
+    .Découvrir {
+        align-items: center;
+        position: relative;
+    }
+    .events {
+        text-align: center;
+    }
+    .joinUs {
+        align-items: center;
+        position: relative;
+    }
+};
