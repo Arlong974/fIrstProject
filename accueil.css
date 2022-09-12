@@ -2,11 +2,16 @@
     background-color: red;
     width: 95%;
     margin:  0 auto;
+    border: solid 1px;
+    border-radius: 10px;
 }
+
 .events {
     background-color: blue;
     width: 95%;
     margin: 0 auto;
+    border: solid 1px;
+    border-radius: 10px;
 }
 h1 {
     position: relative;
@@ -17,6 +22,13 @@ h1 {
 .codeBy {
     text-align: center;
 }
+.Découvrir {
+    border-radius: 10px;
+    position: relative;
+}
+footer {
+    background-color: #D1FFC5;
+}
 @media screen and (max-width: 719px) {
     .notreMission {
         text-align: center;
@@ -24,6 +36,7 @@ h1 {
     .Découvrir {
         align-items: center;
         position: relative;
+
     }
     .events {
         text-align: center;
@@ -31,5 +44,31 @@ h1 {
     .joinUs {
         align-items: center;
         position: relative;
+    }
+    header {
+        width: 100%;
+        background-color: #D1FFC5;
+    }
+    .firstImage {
+        width: 90%;
+        height: 90%;
+        border-radius: 10px;
+    }
+    .secondImage {
+        width: 90%;
+        height: 90%;
+        border-radius: 10px;
+        padding-top: 5px;
+    }
+    footer {
+        height: 100%;
+        background-color: #E3EDE0;
+        padding: 0%;
+    } 
+    .logoFacebook {
+        padding-left: 30%;
+    }
+    .codeBy {
+        margin: auto 0;
     }
 };
