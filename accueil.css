@@ -1,23 +1,29 @@
 .notreMission {
-    background-color: red;
+    background: red;
     width: 95%;
     margin:  0 auto;
-    border: solid 1px;
-    border-radius: 10px;
+   /* border: solid 1px;*/
+    border-radius: 5px;
+    border-top: 0;
+}
+header {
+    background-color: #D1FFC5;
+    margin: 0 auto;
 }
 
 .events {
     background-color: blue;
     width: 95%;
     margin: 0 auto;
-    border: solid 1px;
-    border-radius: 10px;
+   /* border: solid 1px;*/
+     border-radius: 5px;
 }
 h1 {
     position: relative;
     text-align: center;
     text-decoration: none;
     color: black;
+    margin: 0;
 }
 .codeBy {
     text-align: center;
@@ -28,41 +34,60 @@ h1 {
 }
 footer {
     background-color: #D1FFC5;
+    height: 100%;
+}
+body {
+    margin: 0;
 }
 @media screen and (max-width: 719px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
     .notreMission {
         text-align: center;
+        width: 100%;
+        background-color:rgb(163, 255, 163);
     }
     .Découvrir {
         align-items: center;
         position: relative;
-
+        background-color: #D1FFC5;
     }
     .events {
         text-align: center;
+        width: 100%;
+        background-color:rgb(163, 255, 163);
+        padding-bottom: 5px;
     }
     .joinUs {
         align-items: center;
         position: relative;
+        border-radius: 10px;
+        background-color: #D1FFC5;
+        text-decoration:black;
     }
     header {
         width: 100%;
         background-color: #D1FFC5;
+        padding: 0%;
     }
     .firstImage {
         width: 90%;
         height: 90%;
         border-radius: 10px;
+        border: solid 3px;
     }
     .secondImage {
         width: 90%;
         height: 90%;
         border-radius: 10px;
-        padding-top: 5px;
+        border: solid 3px;
     }
     footer {
         height: 100%;
-        background-color: #E3EDE0;
+        background-color: #D1FFC5;
         padding: 0%;
     } 
     .logoFacebook {
@@ -70,5 +95,12 @@ footer {
     }
     .codeBy {
         margin: auto 0;
+        font-size: 12px;
+    }
+    .textFirstButton {
+        color: black;
+    } 
+    .textSecondButton {
+        color: black;
     }
 };
