@@ -1,0 +1,17 @@
+h1 {
+    text-align: center;
+}
+@media screen and (max-width: 719px) {
+    header {
+        width: 100%;
+        background-color: #D1FFC5;
+        padding: 0%;
+    }
+    h1 {
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        margin: 0;
+    }
+};

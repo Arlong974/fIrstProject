@@ -1,22 +1,10 @@
-.notreMission {
-    background: red;
-    width: 95%;
-    margin:  0 auto;
-   /* border: solid 1px;*/
-    border-radius: 5px;
-    border-top: 0;
+body {
+    margin: 0;
+    padding: 0%;
 }
 header {
     background-color: #D1FFC5;
     margin: 0 auto;
-}
-
-.events {
-    background-color: blue;
-    width: 95%;
-    margin: 0 auto;
-   /* border: solid 1px;*/
-     border-radius: 5px;
 }
 h1 {
     position: relative;
@@ -25,19 +13,73 @@ h1 {
     color: black;
     margin: 0;
 }
-.codeBy {
+.firstImage {
+    border: solid 3px black;
+    border-radius: 5px;
+    position: sticky;
+    left: 30%;
+    width: 40%;
+    align-items: center;
+}
+.notreMission {
+    background: red;
+    width: 100%;
+    margin:  0 auto;
+    border: solid 1px;
+    border-radius: 5px;
+    border-top: 0;
+}
+
+h2 {
     text-align: center;
+    bottom: 50%;
 }
 .Découvrir {
     border-radius: 10px;
-    position: relative;
+    position: absolute;
+    left: 48%;
+    padding: 5px;
+    bottom: 10%;
+    font-size: large;
+}
+.events {
+    background-color: blue;
+    width: 100%;
+    margin: 0 auto;
+   /* border: solid 1px;*/
+     border-radius: 5px;
+}
+.secondImage{
+    position: sticky;
+    width: 40%;
+    left: 30%;
 }
 footer {
     background-color: #D1FFC5;
-    height: 100%;
+    padding: 0%;
 }
-body {
-    margin: 0;
+.codeBy {
+    text-align: center;
+}
+h1 {
+    color: black;
+    padding: 1%;
+    font-family: 'Hammersmith One', sans-serif;
+}
+a {
+    outline: none;
+    text-decoration: none;
+}
+a:link {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+.firstText, .secondText {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
 }
 @media screen and (max-width: 719px) {
     body {
@@ -54,6 +96,8 @@ body {
         align-items: center;
         position: relative;
         background-color: #D1FFC5;
+        padding: 5px;
+        text-decoration: none;
     }
     .events {
         text-align: center;
@@ -67,6 +111,7 @@ body {
         border-radius: 10px;
         background-color: #D1FFC5;
         text-decoration:black;
+        padding: 5px;
     }
     header {
         width: 100%;
@@ -78,12 +123,14 @@ body {
         height: 90%;
         border-radius: 10px;
         border: solid 3px;
+        left: auto;
     }
     .secondImage {
         width: 90%;
         height: 90%;
         border-radius: 10px;
         border: solid 3px;
+        right: auto;
     }
     footer {
         height: 100%;
@@ -99,8 +146,29 @@ body {
     }
     .textFirstButton {
         color: black;
+        text-decoration: none;
     } 
     .textSecondButton {
         color: black;
+    }
+    h1 {
+        color: black;
+        padding: 1%;
+        font-family: 'Hammersmith One', sans-serif;
+    }
+    a {
+        outline: none;
+        text-decoration: none;
+    }
+    a:link {
+        text-decoration: none;
+    }
+    a:active {
+        text-decoration: none;
+    }
+    .firstText, .secondText {
+        font-size: 18px;
+        font-weight: 500;
+        text-align: center;
     }
 };
